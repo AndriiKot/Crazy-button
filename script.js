@@ -1,7 +1,7 @@
 ﻿let crazy = document.querySelector('button')
 
 function randomInteger(min,max){
-  min = 1;max = 100;
+  min = 0;max = 100;
   let rand = min + Math.random() * (max + 1 - min);
   return  Math.floor(rand);
 }
